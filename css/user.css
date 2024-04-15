@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.logo{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #e8ec1e;
+    float: left;}
+
+body {
+    font-family: "Poppins", sans-serif !important;
+    background-color: #aed0fd;}
+
+html {
+    scroll-behavior: smooth;}
+
+.navbar {
+    background-color: #a134f6;}
+
+body.bg-img {
+    background-image: url('../img/home.png');
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;}
+
+.navbar a.nav-link {
+    margin-inline: 20px;
+    padding: 5px;}
+
+.navbar a.nav-link.active {
+    border-bottom: 2px solid #E8EC1E; }
+
+.navbar a.nav-link:hover {
+    border-bottom: 2px solid #E8EC1E;}
+
+.table {
+    background-color: #F8F9FA;
+    /* border-top: 6px solid #AED0FD;
+    border-bottom: 6px solid #AED0FD; */
+    overflow: hidden;
+    padding-inline: 20px;
+    border-radius: 5px;}
+
+.table thead tr td {
+    background-color: #A134F6;
+    color: #fff;}
+
+.table tr td, .table tr th {
+    padding-inline: 10px;}
+
+.title-page{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #A134F6;
+    float: left;}
+
+.img-detail-pemesanan {
+    width: 100%;}
+
+#calendar a {
+    text-decoration: none;
+    color: #A134F6;}
+
+#calendar button.fc-button-primary {
+    background-color: #FFC107;
+    transition: 0.3 ease-in-out;
+    border: 1px solid #eaeaea;}
+
+#calendar button.fc-button-primary:hover {
+    background-color: #e8b009;}
+
+.footer {
+    background-color: #a134f6; }
+
+.copy{
+    color: #e8ec1e !important;}
+
+.bg-prpl {
+	background-color: #a134f6;}
+
+.bg-brown {
+	background-color: #FCEDC6;}
+
+.bg-blue {
+    background-color: #AED0FD;}

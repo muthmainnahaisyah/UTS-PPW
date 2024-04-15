@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.logo{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #e8ec1e;
+    float: left;}
+
+body {
+    font-family: "Poppins", sans-serif !important;
+    background-color: #aed0fd;}
+
+body.bg-blue {
+	background-color: #AED0FD;
+}
+body.bg-blue  .navbar-nav .nav-link {
+	color: #e8ec1e;
+}
+
+html {
+    scroll-behavior: smooth;}
+
+.navbar {
+    background-color: #a134f6;}
+
+.fullscreen-bg {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;}
+  
+.fullscreen-bg img {
+    width: 100%;
+    max-height: 90vh;
+    object-fit: cover;}
+
+.home {
+    padding-bottom: 50px;}
+
+.menu {
+    margin-top: 50px;
+    margin-bottom: 50px;}
+
+.card{
+    background-color: #FB88B4;
+    border-radius: 15px;}
+
+.card-title {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;}
+
+.card-text{
+    font-size: 16px;}
+
+.btn-reg, 
+.btn-log{
+    background-color: #a134f6; 
+    color: #ffffff;
+    border: 2px solid #a134f6; 
+    border-radius: 12px; 
+    padding: 5px 10px; 
+    text-decoration: none; 
+    display: inline-block;}
+
+.footer {
+    background-color: #a134f6; }
+
+.copy{
+    color: #e8ec1e !important;}
