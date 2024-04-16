@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 05, 2024 at 06:33 AM
+-- Generation Time: Apr 16, 2024 at 09:16 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `event`
+-- Database: `uts-ppw`
 --
 
 -- --------------------------------------------------------
@@ -42,7 +42,9 @@ CREATE TABLE `akun` (
 INSERT INTO `akun` (`id`, `name`, `email`, `password`, `user_type`) VALUES
 (1, 'muthmainnah', 'muth01@gmail.com', '1111', 'admin'),
 (2, 'aisyah', 'aisyah01@gmail.com', '0000', 'user'),
-(3, 'kayla', 'kayla@gmail.com', '1234', 'user');
+(3, 'kayla', 'kayla@gmail.com', '1234', 'user'),
+(4, 'muti', 'koor@gmail.com', '9999', 'koordinator'),
+(6, 'Joviana', 'adminbaru@gmail.com', '8888', 'admin');
 
 -- --------------------------------------------------------
 
@@ -148,7 +150,7 @@ ALTER TABLE `tempat_event`
 -- AUTO_INCREMENT for table `akun`
 --
 ALTER TABLE `akun`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT for table `event`
